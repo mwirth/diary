@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<org.eclipse.emf.ecp.view.model:View xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:org.eclipse.emf.ecp.view.model="http://org/eclipse/emf/ecp/view/model/170" xmlns:org.eclipse.emf.ecp.view.table.model="http://org/eclipse/emf/ecp/view/table/model/150" xmi:id="_7NDM8MHkEeaR6p53FDH8pw" name="Entry" ecorePath="/org.wimi.diary.model/model/diary.ecore">
+  <rootEClass href="http://org/wimi/diary#//Entry"/>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_7NFpMMHkEeaR6p53FDH8pw" name="Control date">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_7NFpMcHkEeaR6p53FDH8pw">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://org/wimi/diary#//Entry/date"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_7NFpMsHkEeaR6p53FDH8pw" name="Control test">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_vBgAoMHlEeaR6p53FDH8pw">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://org/wimi/diary#//Entry/text"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.table.model:TableControl" xmi:id="_gAxl0MLJEeagvKBGHuT57w" name="Pictures">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.table.model:TableDomainModelReference" xmi:id="_qy5EkMLJEeagvKBGHuT57w">
+      <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_qy5EkcLJEeagvKBGHuT57w">
+        <domainModelEFeature xsi:type="ecore:EReference" href="http://org/wimi/diary#//Entry/pictures"/>
+      </domainModelReference>
+    </domainModelReference>
+  </children>
+</org.eclipse.emf.ecp.view.model:View>

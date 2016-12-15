@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated diary -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="diary.presentation.DiaryModelWizardID"
+            name="%_UI_DiaryModelWizard_label"
+            class="diary.presentation.DiaryModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/DiaryModelFile.gif">
+         <description>%_UI_DiaryModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated diary -->
+      <editor
+            id="diary.presentation.DiaryEditorID"
+            name="%_UI_DiaryEditor_label"
+            icon="icons/full/obj16/DiaryModelFile.gif"
+            extensions="diary"
+            class="diary.presentation.DiaryEditor"
+            contributorClass="diary.presentation.DiaryActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

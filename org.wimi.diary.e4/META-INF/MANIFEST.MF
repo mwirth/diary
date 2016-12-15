@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.wimi.diary.e4;singleton:=true
+Bundle-Name: E4
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: javax.inject;bundle-version="0.0.0",org.eclipse.core.r
+ untime;bundle-version="0.0.0",org.eclipse.swt;bundle-version="0.0.0",
+ org.eclipse.e4.ui.model.workbench;bundle-version="0.0.0",org.eclipse.
+ jface;bundle-version="0.0.0",org.eclipse.e4.ui.services;bundle-versio
+ n="0.0.0",org.eclipse.e4.ui.workbench;bundle-version="0.0.0",org.ecli
+ pse.e4.core.di;bundle-version="0.0.0",org.eclipse.e4.ui.di;bundle-ver
+ sion="0.0.0",org.eclipse.e4.core.contexts;bundle-version="0.0.0",org.
+ eclipse.emf.ecp.ui.view.swt;bundle-version="1.10.0",org.eclipse.ui.wo
+ rkbench;bundle-version=3.108.1.v20160819-2118,org.eclipse.e4.ui.workb
+ ench.addons.swt;bundle-version=1.2.100.v20160831-1151
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: diary,javax.annotation;version="1.0.0";resolution:=opt
+ ional,javax.inject;version="1.0.0",org.eclipse.emf.ecore,org.eclipse.
+ emf.ecore.util,org.eclipse.emf.ecp.ui.view.swt;version="1.10.0",org.e
+ clipse.emf.edit.domain,org.eclipse.emf.edit.provider
+
