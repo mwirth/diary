@@ -8,6 +8,9 @@
       <children xsi:type="advanced:Perspective" xmi:id="_p2iXkMKpEeagvKBGHuT57w" elementId="org.wimi.diary.e4.perspective.configuration" label="Configuration">
         <children xsi:type="basic:Part" xmi:id="_xZTlcMKpEeagvKBGHuT57w" elementId="org.wimi.diary.e4.part.configuration" contributionURI="bundleclass://org.wimi.diary.e4/org.wimi.diary.e4.ConfigurationPart" label="Configuration"/>
       </children>
+      <children xsi:type="advanced:Perspective" xmi:id="_TgL1QMLYEeagvKBGHuT57w" elementId="org.wimi.diary.e4.perspective.diary2" label="Diary2">
+        <children xsi:type="basic:Part" xmi:id="_TgL1QcLYEeagvKBGHuT57w" elementId="org.wimi.diary.e4.part.diary" contributionURI="bundleclass://org.wimi.diary.e4/org.wimi.diary.e4.DiaryPart" label="Diary"/>
+      </children>
     </children>
     <trimBars xmi:id="_VpiDQMIbEeagvKBGHuT57w" elementId="org.wimi.diary.e4.trimbar.0">
       <children xsi:type="menu:ToolControl" xmi:id="_WBCkUMIbEeagvKBGHuT57w" elementId="Spacer Glue" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl"/>

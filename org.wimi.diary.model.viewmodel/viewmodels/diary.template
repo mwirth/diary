@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<org.eclipse.emf.ecp.view.template.model:ViewTemplate xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:org.eclipse.emf.ecp.view.model="http://org/eclipse/emf/ecp/view/model/170" xmlns:org.eclipse.emf.ecp.view.template.model="http://org/eclipse/emf/ecp/view/template/model" xmlns:org.eclipse.emf.ecp.view.template.selector.domainmodelreference.model="http://www.eclipse.org/emf/ecp/view/template/selector/domainmodelreference/model" xmlns:org.eclipse.emf.ecp.view.template.selector.viewmodelelement.model="http://www.eclipse.org/emf/ecp/view/template/selector/viewmodelelement/model" xmlns:org.eclipse.emf.ecp.view.template.style.alignment.model="http://www.eclipse.org/emf/ecp/view/template/style/alignment/model" xmlns:org.eclipse.emf.ecp.view.template.style.fontProperties.model="http://www.eclipse.org/emf/ecp/view/template/style/fontProperties/model" xmlns:org.eclipse.emf.ecp.view.template.style.mandatory.model="http://www.eclipse.org/emf/ecp/view/template/style/mandatory/model">
+  <styles>
+    <selector xsi:type="org.eclipse.emf.ecp.view.template.selector.domainmodelreference.model:DomainModelReferenceSelector">
+      <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference">
+        <domainModelEFeature xsi:type="ecore:EAttribute" href="http://org/wimi/diary#//Diary/owner"/>
+      </domainModelReference>
+    </selector>
+    <properties xsi:type="org.eclipse.emf.ecp.view.template.style.alignment.model:AlignmentStyleProperty" type="RIGHT"/>
+    <properties xsi:type="org.eclipse.emf.ecp.view.template.style.mandatory.model:MandatoryStyleProperty"/>
+  </styles>
+  <styles>
+    <selector xsi:type="org.eclipse.emf.ecp.view.template.selector.viewmodelelement.model:ViewModelElementSelector"/>
+    <properties xsi:type="org.eclipse.emf.ecp.view.template.style.mandatory.model:MandatoryStyleProperty"/>
+    <properties xsi:type="org.eclipse.emf.ecp.view.template.style.fontProperties.model:FontPropertiesStyleProperty" colorHEX="00ffff" height="20"/>
+  </styles>
+  <referencedEcores>/org.wimi.diary.model/model/diary.ecore</referencedEcores>
+</org.eclipse.emf.ecp.view.template.model:ViewTemplate>

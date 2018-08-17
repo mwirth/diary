@@ -11,8 +11,14 @@
       <domainModelEFeature xsi:type="ecore:EAttribute" href="http://org/wimi/diary#//Entry/text"/>
     </domainModelReference>
   </children>
-  <children xsi:type="org.eclipse.emf.ecp.view.table.model:TableControl" xmi:id="_gAxl0MLJEeagvKBGHuT57w" name="Pictures">
+  <children xsi:type="org.eclipse.emf.ecp.view.table.model:TableControl" xmi:id="_gAxl0MLJEeagvKBGHuT57w" name="Pictures" detailEditing="WithDialog">
     <domainModelReference xsi:type="org.eclipse.emf.ecp.view.table.model:TableDomainModelReference" xmi:id="_qy5EkMLJEeagvKBGHuT57w">
+      <columnDomainModelReferences xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_AbV5EMLdEeagvKBGHuT57w">
+        <domainModelEFeature xsi:type="ecore:EAttribute" href="http://org/wimi/diary#//Picture/id"/>
+      </columnDomainModelReferences>
+      <columnDomainModelReferences xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_AbV5EcLdEeagvKBGHuT57w">
+        <domainModelEFeature xsi:type="ecore:EAttribute" href="http://org/wimi/diary#//Picture/aufnahmedatumg"/>
+      </columnDomainModelReferences>
       <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_qy5EkcLJEeagvKBGHuT57w">
         <domainModelEFeature xsi:type="ecore:EReference" href="http://org/wimi/diary#//Entry/pictures"/>
       </domainModelReference>
